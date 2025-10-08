@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button {
+    width: 200px;
+    height: 100px;
+}
+
+
+#score_btns{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10px 0px 10px 30px;
+    padding: 60px;
+    
+}
+
+h1{
+    justify-self: center;
+    margin-left: 900px;
+    width: fit-content;
+    font-size: 60px;
+    color: beige;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+body {
+    background-color: #ffc88a;
+    display: flex;
+    justify-content: center;
+}
+
+#score_btns h2{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+#score_btns p{
+    font-size: 30px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    width: 500px;
+}
